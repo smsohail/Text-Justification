@@ -1,5 +1,5 @@
 
-public class another {
+public class TextJ {
 
 	public String one(String words[], int width){
 		int cost[][] = new int[words.length][words.length];
@@ -48,7 +48,7 @@ public class another {
 	}
 	public static void main(String[] args){
 		String words[] = {"Tushar","Roy","likes","to","code"};
-		another a = new another();
+		TextJ a = new TextJ();
 		System.out.println(a.one(words,10));
 	}
 
